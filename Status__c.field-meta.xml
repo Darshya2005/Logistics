@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <value><fullName>Pending</fullName></value>
+            <value><fullName>In Transit</fullName></value>
+            <value><fullName>Delivered</fullName></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

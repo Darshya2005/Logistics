@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Shipment Dashboard">
+        <lightning-button label="Load Shipments" onclick={loadData}></lightning-button>
+        <template if:true={shipments}>
+            <template for:each={shipments} for:item="ship">
+                <p key={ship.Id}>{ship.Name} - {ship.Status__c}</p>
+            </template>
+        </template>
+    </lightning-card>
+</template>
